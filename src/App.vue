@@ -1,10 +1,10 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-  <h1>Hello, world!</h1>
+  <awesome-button label="Hello!" size="m" />
 </template>
+
+<script setup lang="ts">
+  import AwesomeButton from 'UI/awesome-button/index.vue';
+</script>
 
 <style scoped>
 
